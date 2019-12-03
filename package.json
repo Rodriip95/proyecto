@@ -1,0 +1,17 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "Proyecto entrega final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss style.scss style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "rpenela",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.1"
+  }
+}
