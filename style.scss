@@ -1,3 +1,15 @@
+//VARIABLES
+$naranja: #FF8226;
+$color_fondo : #ffffff;
+$color_negro: #000000;
+$tipografia: "Impact", sans-serif;
+
+//INICIO
+
+
+
+
+
 .navbar {
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
@@ -163,3 +175,12 @@
 }
 
 .btn i { font-size: 14px; margin-left: 5px; }
+
+
+.carousel-inner{
+    margin: 10px auto;
+}
+
+.carousel-item{
+    margin: 10px auto;
+}
