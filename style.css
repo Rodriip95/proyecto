@@ -25,13 +25,7 @@
 .navbar-toggler:focus {
   outline: none; }
 
-#hero {
-  background-image: url("images/fondo.jpg");
-  background-size: cover;
-  padding-top: 90px;
-  min-height: 600px;
-  color: #FF8226; }
-
+/*HERO*/
 .content-center {
   margin: 10px auto 10px auto;
   text-align: center;
@@ -74,6 +68,9 @@
 
 .portfolio-details a h2, .portfolio-details a p {
   color: #ffffff; }
+
+.noticia {
+  margin: 30px auto; }
 
 .redes-set {
   text-decoration: none;

@@ -6,10 +6,6 @@ $tipografia: "Impact", sans-serif;
 
 //INICIO
 
-
-
-
-
 .navbar {
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
@@ -17,12 +13,12 @@ $tipografia: "Impact", sans-serif;
 }
 
 .nav-link {
-    font-family: "Impact", sans-serif;
+    font-family: $tipografia;
     color: black;
 }
 
 .dropdown-item {
-    font-family: "Impact", sans-serif;
+    font-family: $tipografia;
     color: black;
 }
 /*
@@ -41,19 +37,12 @@ $tipografia: "Impact", sans-serif;
 .navbar-toggler:focus{
     outline: none;
 }
-
-#hero {
-    background-image: url('images/fondo.jpg');
-    background-size: cover;
-    padding-top: 90px;
-    min-height: 600px;
-    color: #FF8226;
-}
+/*HERO*/
 
 .content-center {
     margin: 10px auto 10px auto;
     text-align: center;
-    font-family: "Impact", sans-serif;
+    font-family: $tipografia;
     font-size: 40px;
 }
 
@@ -101,6 +90,10 @@ $tipografia: "Impact", sans-serif;
 
 .portfolio-details a h2, .portfolio-details a p {
     color: #ffffff;
+}
+
+.noticia{
+    margin: 30px auto;
 }
 
 .redes-set{
